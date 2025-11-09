@@ -52,7 +52,7 @@ class MyHomePage extends StatelessWidget {
             ),
             const SizedBox(height: 30),
             const Text(
-              'Version: 1.0.1',
+              'Version: 1.0.2',
               style: TextStyle(
                 fontSize: 32,
                 fontWeight: FontWeight.bold,

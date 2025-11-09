@@ -5,6 +5,17 @@
         <description>Auto Update Test Releases</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.2</title>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <pubDate>Sat, 09 Nov 2024 15:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/Qasimovv/auto_update_test/releases/download/v1.0.2/auto_update_test-1.0.2-macos.zip"
+                sparkle:edSignature="YT/HTVl9xvM/tZqnpXFU2aLID82DdeNfTKZvM3lmJni4Curd0mX9Jw7h0ErhGJoiD/AOAOJp0nPlbOtjrWY8Ag=="
+                sparkle:os="macos"
+                length="47149266"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.0.1</title>
             <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>

@@ -4,12 +4,11 @@ import 'package:auto_updater/auto_updater.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // GitHub Pages üçün appcast.xml URL (sonra yaradacağıq)
   String feedURL = 'https://qasimovv.github.io/auto_update_test/appcast.xml';
 
   await autoUpdater.setFeedURL(feedURL);
   await autoUpdater.checkForUpdates();
-  await autoUpdater.setScheduledCheckInterval(3600); // Hər saat yoxla
+  await autoUpdater.setScheduledCheckInterval(3600);
 
   runApp(const MyApp());
 }
